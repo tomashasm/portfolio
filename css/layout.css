@@ -1,0 +1,14 @@
+header{
+    background-color: red;
+}
+aside {
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+}
+main{
+    background-color: darkcyan;
+}
+footer{
+    background-color: coral;
+}
