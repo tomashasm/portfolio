@@ -1,0 +1,23 @@
+div{
+    display: inline-block;
+}
+.juoda{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+.melyna{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+.zalia{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+.raudona{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
