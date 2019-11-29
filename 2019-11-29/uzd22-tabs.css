@@ -1,0 +1,15 @@
+/*.portfolio > .item {*/
+
+
+/*}*/
+
+.tabai>div{
+    float: left;
+    padding: 10px;
+}
+.sheet{
+    display: none;
+}
+#sheet1{
+    display: block;
+}
