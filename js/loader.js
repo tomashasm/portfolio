@@ -38,11 +38,16 @@ loadJSON(spausdinti);
 
 $(function () {
     $('header ul li a').click(function(e){
-        e.preventDefault();
+        if(e.preventDefault){ e.preventDefault()}
+        else{e.stop()};
+        e.returnValue = false;
+        e.stopPropagation();
 
         let elementas = $(this);
         let adresas = elementas.attr('href');
         $('main').load(adresas);
     });
+
+//    $('main').load('apie.html');
 });
 
