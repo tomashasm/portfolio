@@ -29,3 +29,20 @@ function loadJSON(callback) {
 
 }
 loadJSON(spausdinti);
+
+// $('.testas').click(function(){
+//     let elementas = $(this);
+//     console.log(elementas.attr('class'));
+//     $('main').load('testas.html');
+// })
+
+$(function () {
+    $('header ul li a').click(function(e){
+        e.preventDefault();
+
+        let elementas = $(this);
+        let adresas = elementas.attr('href');
+        $('main').load(adresas);
+    });
+});
+
